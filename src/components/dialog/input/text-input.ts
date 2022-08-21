@@ -13,7 +13,7 @@ export class TextSectionInput
             </div>
             <div class="form__container">
               <label for="body">Body</label>
-              <textarea type="text" id="body" row="3"/>
+              <textarea type="text" id="body" row="3"></textarea>
             </div>
           </div>
     `);
