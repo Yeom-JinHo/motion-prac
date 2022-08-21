@@ -12,6 +12,7 @@ export class ImageComponent extends BaseComponent<HTMLElement> {
     const imageEle = this.element.querySelector(
       ".image__thumbnail"
     ) as HTMLImageElement;
+    console.log(url);
     imageEle.src = url;
     imageEle.alt = title;
 
